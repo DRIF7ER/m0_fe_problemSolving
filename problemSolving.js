@@ -35,3 +35,33 @@ testListEvenOrOdd("Halo", "Division", "Warframe")
 console.log(
 
 )
+// CHALLENGE 3
+
+// Write a method or function that accepts a number from 1-24 that represents the current time rounted to the closest hour in 24-hour military time.
+// (i.e. 11 = 11:00 AM, 16 = 4:00 PM). The function should return a different greeting based on the time of day.
+
+/** 4 AM - 11 AM: Good morning!
+* 12 PM - 4 PM: Good afternoon!
+* 5 PM - 8PM: Good evening!
+* 9 PM - 3 AM: Good night!
+*/
+
+function greetByTimeOfDay(time){;
+    var time = time;
+    if (time >= 4 && time <= 11){;
+        console.log(`Good morning! The time is ${time}:00.`)};
+    if (time >= 12 && time <= 16){;
+        console.log(`Good afternoon! The time is ${time}:00.`)};
+    if (time >= 17 && time <= 20){;
+        console.log(`Good evening! The time is ${time}:00.`)};
+    if (time >= 21 || time <= 3){;
+        console.log(`Good night! The time is ${time}:00.`)};
+};
+
+greetByTimeOfDay(10)
+greetByTimeOfDay(13)
+greetByTimeOfDay(19)
+greetByTimeOfDay(23)
+console.log(
+
+)
