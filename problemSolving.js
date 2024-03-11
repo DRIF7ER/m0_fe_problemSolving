@@ -81,3 +81,17 @@ makePhoneNumber(7, 7, 5, 6, 7, 3, 8, 3, 2, 0)
 console.log(
 
 )
+// CHALLENGE 5 - OPTIONAL! Super Spicy!
+
+// Start with the array of strings below. Print all of the words in the array, but change every t to an uppercase T.
+// Starter array: ['cat', 'dog', 'parrot', 'turtle', 'bird']
+
+function changeThePrint(...inputs){;
+    var inputs = inputs;
+    console.log(inputs.toString(inputs).replaceAll("t", 'T'));
+};
+
+changeThePrint('cat', 'dog', 'parrot', 'turtle', 'bird')
+console.log(
+
+)
