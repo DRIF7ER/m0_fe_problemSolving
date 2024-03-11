@@ -65,3 +65,19 @@ greetByTimeOfDay(23)
 console.log(
 
 )
+// CHALLENGE 4 - OPTIONAL! Spicy!
+
+// Write a method or function that accepts an array of 10 integers (between 0 and 9) and returns a string of those numbers in the form of a phone number.
+// For example, if you were given [5, 5, 5, 1, 2, 3, 4, 5, 6, 7], the method or function will return 555-123-4567.
+
+function makePhoneNumber(...telephonicAddress){;
+    var digits = telephonicAddress;
+    console.log(`Congrats! Your number is (${digits.slice(0, 3).join("")}) ${digits.slice(3, 6).join("")}-${digits.slice(6, 10).join("")}!`)
+};
+
+makePhoneNumber(8, 7, 3, 6, 2, 1, 1, 5, 0, 4)
+makePhoneNumber(9, 9, 9, 4, 2, 5, 6, 4, 4, 1)
+makePhoneNumber(7, 7, 5, 6, 7, 3, 8, 3, 2, 0)
+console.log(
+
+)
